@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int n;
+int Fact=1;
+printf("Enter a number:");
+scanf("%d",&n);
+for(int i = 1; i <= n; i++){
+Fact=Fact*i;
+}
+printf("Factorial=%d\n",Fact);
+return 0;
+}
